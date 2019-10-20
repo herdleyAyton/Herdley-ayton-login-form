@@ -1,0 +1,94 @@
+<!Doctype html>
+<html lang="en">
+	<!-- this language attribute helps search engines and browsers
+	to know about the language used in a webpage -->
+	<head>
+		<meta charset="utf-8">
+		<!-- SE0 -->
+		<meta name="description" content="Building website with html5,css3, Jquery & Bootstrap framework">
+		<meta name="keywords" content="HTML5, CSS3, Bootstrap, Web Design, Web Development, Responsive Wwebsite, Modern Website">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- this to ensure that our webpage should be compatible with the latest IE-edge -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Title -->
+		<title>Modern Responsive Website</title>
+		<!-- favicon: is basically an icon for the title -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		 <!-- google roboto font -->
+    	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    	<!-- fontawesome -->
+    	<link rel="stylesheet" type="text/css" href="css/font-awesome/css/all.css">
+    	<!-- bootstrap CSS -->
+   		 <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+   		 <!-- animate CSS -->
+    	<link rel="stylesheet" href="css/animate/animate.css">
+    	<!-- magnific-popup CSS -->
+    	<link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+    	 <!-- owl-carousel CSS -->
+   	 	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    	<link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    	 <!-- Custom Style -->
+    	<link rel="stylesheet" href="css/style.css">
+    	<!-- Responsive CSS -->
+    	<link rel="stylesheet" href="css/responsive.css">
+        <style type="text/css">
+            ::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}
+        </style>
+	</head>
+	<body>
+	<div class="box">
+        <center><img style="width: 100px;border-radius: 10px;margin-top: -70px;" src="img/illus.jpg"></center><br>
+  <h2>Login</h2>
+  <form>
+    <div class="inputBox">
+      <input  type="email" name="email" placeholder="Enter Username" required onkeyup="this.setAttribute('value', this.value);" value="">
+    
+    </div>
+    <div class="inputBox">
+      <input style="color: white;" type="password" name="password" placeholder="Enter Username" required value=""
+             onkeyup="this.setAttribute('value', this.value);"
+             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+             title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+      
+    </div>
+   <center> <button style="width: 40%;margin:5px 0px 25px;background-color: #2aa68e;color: white;font-size: 19px;padding: 7px 14px;border-radius: 5px;" class="btn" type="btn-success"><i style="margin-right: 10px;" class="fas fa-sign-in-alt"></i>Login </button>
+    <br>
+<button style="font-size: 20px;color: #2aa68e;padding: 5px 0px 15px;background-color: transparent;border: none;">Forgot Password?</button>
+   </center> </form>
+</div>
+    <!-- JQuery -->
+	    <script src="js/jquery-3.3.1.min.js"></script>
+	    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	    <!-- bootstrap js -->
+	    <script src="js/bootstrap/bootstrap.min.js"></script>
+	     <!-- wow js -->
+	    <script src="js/wow/wow.min.js "></script>
+	    <!-- magnific-popup Js -->
+	    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+	    <!-- owl-carousel Js -->
+	    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+	    <!-- counter js -->
+	    <script src="js/counter/jquery.waypoints.min.js"></script>
+	    <script src="js/counter/jquery.counterup.min.js"></script>
+	    <!-- easing js -->
+	    <script src="js/easing/jquery.easing.1.3.js"></script>
+	    <!-- custom js -->
+    	<script src="js/custom.js "></script>
+        <script type="text/javascript">
+            $(function(){
+    new WOW().init();
+});
+        </script>
+	</body>
+</html>
